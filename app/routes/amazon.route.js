@@ -9,7 +9,7 @@ const { loginSchema } = require("../validations/schemas");
 
 router.post("/login", validate(loginSchema), loginController);
 router.get("/account/:id", getAccountController);
-router.put()
+// router.put()
 
 module.exports = router;
 
